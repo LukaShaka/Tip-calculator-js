@@ -1,0 +1,147 @@
+body {
+    background-color: antiquewhite;
+
+
+
+
+}
+
+.container {
+
+    height: 400px;
+    width: 700px;
+    background-color: rgba(185, 185, 185, 0.226);
+    position: relative;
+    margin: auto;
+    margin-top: 150px;
+    border: 1px solid snow;
+    border-radius: 20px;
+    box-shadow: 20px 20px 70px rgba(109, 109, 109, 0);
+
+}
+
+.box1 {
+    width: 650px;
+    height: 350px;
+    top: 25px;
+    left: 25px;
+    background-color: rgb(236, 236, 236);
+    border-radius: 20px;
+    box-shadow: 20px 20px 80px rgba(109, 109, 109, 0.267);
+
+    position: absolute;
+}
+
+.box2 {
+    width: 600px;
+    height: 330px;
+    top: 10px;
+    left: 25px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 20px 20px 80px rgba(109, 109, 109, 0.267);
+
+    position: absolute;
+}
+
+.calculate {
+    width: 95%;
+    height: 40px;
+    margin-left: 15px;
+    bottom: 60px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(77, 172, 85);
+    border-radius: 5px;
+    color: white;
+    border-width: 2px;
+    border-color: white;
+
+
+    position: absolute;
+
+
+
+}
+
+.tip {
+    width: 95%;
+    height: 40px;
+    margin-left: 15px;
+    bottom: 120px;
+    border: 0.5px solid rgba(0, 0, 0, 0.322);
+
+
+
+
+
+    border-radius: 5px;
+
+    position: absolute;
+
+
+
+}
+
+.bill {
+    width: 95%;
+    height: 40px;
+    margin-left: 15px;
+    bottom: 190px;
+    border: 0.5px solid rgba(0, 0, 0, 0.322);
+
+
+
+
+
+
+
+
+
+
+
+    border-radius: 5px;
+
+    position: absolute;
+
+
+}
+
+#textTitle {
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.textEnter {
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.textBill {
+    position: absolute;
+    margin-top: 75px;
+    margin-left: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.textTip {
+    position: absolute;
+    margin-top: 143px;
+    margin-left: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.textTotal {
+
+    position: absolute;
+    margin-top: 285px;
+    font-size: 20px;
+    margin-left: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
